@@ -2,15 +2,22 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet,  SafeAreaView } from 'react-native';
 
-import MinMax from './src/components/MinMax'
-/* import Comp, { Comp1, Comp2 } from './src/components/Multi'
-import Primeiro from './src/components/Primeiro' */
-
+import Aleatorio from './src/components/Aleatorio'
+/* import MinMax from './src/components/MinMax'
+import Comp, { Comp1, Comp2 } from './src/components/Multi'
+import Primeiro from './src/components/Primeiro'
+ */
 export default () => {
   return (
     <SafeAreaView style={styles.App}>
-      <MinMax min={3} max={20} />
-{/*       <Comp />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      {/* <MinMax min={3} max={20} /> 
+      <Comp />
       <Comp1 />
       <Comp2 />
       <Primeiro /> */}
