@@ -2,8 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 
-import Titulo from './src/components/Titulo'
+import Botao from './src/components/Botao'
 /*
+import Titulo from './src/components/Titulo'
 import Aleatorio from './src/components/Aleatorio'
 import MinMax from './src/components/MinMax'
 import Comp, { Comp1, Comp2 } from './src/components/Multi'
@@ -12,9 +13,10 @@ import Primeiro from './src/components/Primeiro'
 export default () => {
   return (
     <SafeAreaView style={styles.App}>
+      <Botao />
+      {/* 
       <Titulo principal="Cadastro de Produto" />
       <Titulo secundario="Tela de Cadastro do Produto" />
-      {/* 
       <Aleatorio min={1} max={60} />
       <Aleatorio min={1} max={60} />
       <Aleatorio min={1} max={60} />
