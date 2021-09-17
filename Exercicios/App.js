@@ -2,8 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 
-import ParImpar from './src/components/ParImpar';
+import Familia from './src/components/relacao/Familia'
+import Membro from './src/components/relacao/Membro';
 /*
+import ParImpar from './src/components/ParImpar';
 import Diferenciar from './src/components/Diferenciar';
 import ContadorV2 from './src/components/contador/ContadorV2'
 import PaiI from './src/components/indireta/Pai'
@@ -19,8 +21,18 @@ import Primeiro from './src/components/Primeiro'
 export default () => {
   return (
     <SafeAreaView style={styles.App}>
-      <ParImpar num={3} />
+      <Familia>
+        <Membro nome="Bia" sobrenome="Arruda" />
+        <Membro nome="Carlos" sobrenome="Arruda" />
+      </Familia>
+      <Familia>
+        <Membro nome="Ana" sobrenome="Silva" />
+        <Membro nome="Julia" sobrenome="Arruda" />
+        <Membro nome="Guilherme" sobrenome="Arruda" />
+        <Membro nome="Rebeca" sobrenome="Arruda" />
+      </Familia>
       {/* 
+      <ParImpar num={3} />
       <Diferenciar />
       <ContadorV2 />
       <PaiI />
