@@ -2,8 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 
-import UsuarioLogado from './src/components/UsuarioLogado'
+import ListaProdutos from './src/components/produtos/ListaProdutos';
 /*
+import UsuarioLogado from './src/components/UsuarioLogado'
 import Familia from './src/components/relacao/Familia'
 import Membro from './src/components/relacao/Membro';
 import ParImpar from './src/components/ParImpar';
@@ -22,8 +23,9 @@ import Primeiro from './src/components/Primeiro'
 export default () => {
   return (
     <SafeAreaView style={styles.App}>
-      <UsuarioLogado usuario={{ nome='Gui', email='gui@gmail.com' }} />
+      <ListaProdutos />
       {/* 
+      <UsuarioLogado usuario={{ nome='Gui', email='gui@gmail.com' }} />
       <Familia>
         <Membro nome="Bia" sobrenome="Arruda" />
         <Membro nome="Carlos" sobrenome="Arruda" />

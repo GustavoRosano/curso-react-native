@@ -4,5 +4,9 @@ export default StyleSheet.create({
     fontG: {
         fontSize: 24,
         textAlign: "center"
+    },
+    fontM: {
+        fontSize: 20,
+        textAlign: "center"
     }
 })
