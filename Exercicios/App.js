@@ -2,8 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 
-import ContadorV2 from './src/components/contador/ContadorV2'
+import Diferenciar from './src/components/Diferenciar';
 /*
+import ContadorV2 from './src/components/contador/ContadorV2'
 import PaiI from './src/components/indireta/Pai'
 import Pai from './src/components/direta/Pai'
 import Contador from './src/components/Contador'
@@ -17,8 +18,9 @@ import Primeiro from './src/components/Primeiro'
 export default () => {
   return (
     <SafeAreaView style={styles.App}>
-      <ContadorV2 />
+      <Diferenciar />
       {/* 
+      <ContadorV2 />
       <PaiI />
       <Pai />
       <Contador inicial={100} passo={13} />
