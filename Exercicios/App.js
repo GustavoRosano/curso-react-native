@@ -2,8 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 
-import DigiteSeuNome from './src/components/DigiteSeuNome';
+import FlexboxV4 from './src/components/layout/FlexboxV4';
 /*
+import FlexboxV3 from './src/components/layout/FlexboxV3';
+import FlexboxV2 from './src/components/layout/FlexboxV2';
+import FlexboxV1 from './src/components/layout/FlexboxV1';
+import DigiteSeuNome from './src/components/DigiteSeuNome';
 import ListaProdutosV2 from './src/components/produtos/ListaProdutosV2';
 import ListaProdutos from './src/components/produtos/ListaProdutos';
 import UsuarioLogado from './src/components/UsuarioLogado'
@@ -25,8 +29,12 @@ import Primeiro from './src/components/Primeiro'
 export default () => {
   return (
     <SafeAreaView style={styles.App}>
-      <DigiteSeuNome />
+      <FlexboxV4 />
       {/* 
+      <FlexboxV3 />
+      <FlexboxV2 />
+      <FlexboxV1 />
+      <DigiteSeuNome />
       <ListaProdutosV2 />
       <ListaProdutos />
       <UsuarioLogado usuario={{ nome='Gui', email='gui@gmail.com' }} />

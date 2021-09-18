@@ -8,12 +8,14 @@ export default props => {
 
     return (
         <SafeAreaView>
-            <Text>{nome}</Text>
+            <Text>Nome Completo:</Text>
             <TextInput
+            style={Estilo.fontG}
                 placeholder="Digite seu Nome:"
                 value={nome}
                 onChangeText={nome => setNome(nome)}
             />
+            <Text>{nome}</Text>
         </SafeAreaView>
     )
 }
