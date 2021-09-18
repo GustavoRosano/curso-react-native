@@ -2,8 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 
-import FlexboxV4 from './src/components/layout/FlexboxV4';
+import Mega from './src/components/mega/Mega';
 /*
+import FlexboxV4 from './src/components/layout/FlexboxV4';
 import FlexboxV3 from './src/components/layout/FlexboxV3';
 import FlexboxV2 from './src/components/layout/FlexboxV2';
 import FlexboxV1 from './src/components/layout/FlexboxV1';
@@ -29,8 +30,9 @@ import Primeiro from './src/components/Primeiro'
 export default () => {
   return (
     <SafeAreaView style={styles.App}>
-      <FlexboxV4 />
+      <Mega qtdeNumeros={12} />
       {/* 
+      <FlexboxV4 />
       <FlexboxV3 />
       <FlexboxV2 />
       <FlexboxV1 />
